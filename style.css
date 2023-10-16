@@ -1,0 +1,174 @@
+body{
+	background-color: rgb(220,220,220);
+	color: black
+	font-family: Calibri;
+	text-align: center ; 
+	text-justify: center;
+}
+
+h1{
+	color: grey;
+	font-family: Bodoni MT Black;
+	font-weight: 200;
+	letter-spacing: 3px;
+	font-size: 50px;
+	font-weight: bold;
+	text-transform: unset;
+}
+
+h2{
+	color: rgb(106,90,205);
+	font-family: Algerian;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+p{
+	font-family: Calibri;
+	line-height: 1.6;
+	font-size: 22px;
+	text-justify: center;
+	color: rgb(47,79,79);
+	width: 850px;
+	margin: 10px auto;
+}
+
+a{
+	font-weight: bold;
+	line-height: 1.1;
+	color: black;
+	font-size: 25px;
+	text-decoration: none;
+	color: white; 
+	background-color: rgb(255,140,118);
+	padding: 7px 15px; 
+	border-radius: 50px;
+}
+
+
+a:hover {
+	color: black; 
+	background-color: rgb(102,205,170);
+}
+
+li {
+	display: inline;
+	padding: 10px; 
+}
+
+div {
+	background: rgb(176,222,225); 
+	margin: 30px;
+	padding: 30px;
+	border-radius: 35px;
+	box-shadow: 5px 5px 5px grey;
+	border-top: 2px dashed white;
+	border-right: 2px dashed white;
+	border-bottom: 2px dashed white;
+	border-left: 2px dashed white;
+}
+
+img {
+	border: 6px solid pink;
+}
+
+Design using class: 
+
+.text-violet {
+	width: 400px;
+	text-align: center;
+	margin: 10px auto;
+}
+
+.text-bleu {
+	width: 300px;
+	margin: 0 auto;
+}
+
+.text-rose {
+	color: rgb(47,79,79);
+	width: 300px;
+	margin: 0 auto;
+}
+
+.text-orange {
+	color: rgb(200,25,40);
+	width: 300px;
+	margin: 0 auto;
+}
+
+.text-vert {
+	color: rgb(46,139,87);
+	width: 300px;
+	margin: 0 auto;
+}
+
+.text-marron {
+	color: rgb(212,174,125);
+	width: 300px;
+	margin: 0 auto;
+}
+
+.img-circle {
+ 	border-radius: 50%;
+}
+ 	
+.shadowed {
+	box-shadow: 5px 5px 3px black; 
+}
+
+.container {
+	width: 1000px;
+	margin: 40px auto; 
+	color: white; 
+	padding: 40px;
+	background: rgb(255,230,235);
+}
+
+	}
+@media (max-width: 800px) {
+
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 500px) {
+
+	.container {
+		background-color: rgb(255,230,235);
+		width: 400px;
+
+}
+
+
+.design p {
+	margin-bottom: 5px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.contour {
+	background-color: blue; 
+}
+
+
+Design using ID: 
+
+#école {
+	font-size: 25px;
+	font-weight: bold;
+	width: 300px;
+	margin: 0 auto;
+	line-height: 1.6;
+	text-decoration-line: none;
+}
+
+#circle {
+	border: 5px red;
+}
+
+#intro p {
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
